@@ -36,9 +36,15 @@ var query = window.location.search.substring(1);
 var qs = parse_query_string(query);
 
 if(qs.url) {
+  
   gtag('config', 'UA-129948591-1', {
     'page_title' : qs.url,
     'page_location' : qs.url
+  });
+  
+  fbq('track', 'ViewContent', {
+    content_ids: qs.url,
+    content_type: 'page',
   });
   
   setTimeout(function() {
