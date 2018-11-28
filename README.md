@@ -1,2 +1,2 @@
 # highlightsclick.github.io
-Playground for Highlights.
+MVP for Highlights.
