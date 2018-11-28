@@ -1,2 +1,2 @@
 # highlightsclick.github.io
-Playground for Highlights
+Playground for Highlights.
