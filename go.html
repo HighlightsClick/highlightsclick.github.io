@@ -42,10 +42,7 @@ var qs = parse_query_string(query);
     'page_location' : qs.url
   });
   
-  fbq('track', 'ViewContent', {
-    content_ids: qs.url,
-    content_type: 'page',
-  });
+  fbq('track', 'ViewContent');
   
   setTimeout(function() {
     // window.location.href = qs.url;
