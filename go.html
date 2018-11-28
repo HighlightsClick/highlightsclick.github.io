@@ -36,8 +36,12 @@ var query = window.location.search.substring(1);
 var qs = parse_query_string(query);
 
 if(qs.url) {
+  gtag('config', 'UA-129948591-1', {
+    'page_location' : qs.url
+  });
+  
   setTimeout(function() {
     window.location.href = qs.url;
-  }, 500);
+  }, 1000);
 }
 </script>
