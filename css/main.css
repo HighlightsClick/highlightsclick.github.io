@@ -49,7 +49,7 @@ body.home {
 #social a:active {
     text-decoration: none;
     color: #fff;
-    padding: 0 1em;
+    padding: 0 14px;
     margin-right: 0.5em;
     width: auto;
     height: 52px;
@@ -58,6 +58,15 @@ body.home {
     background: #007aff;
     display: inline-block;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
+}
+
+svg {
+    fill: currentColor;
+    height: 25px;
+    width: 25px;
+    line-height: 52px;
+    display: inline-block;
+    margin-top: 50%;
 }
 
 @media only screen and (max-width: 767px) {
