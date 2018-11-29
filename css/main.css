@@ -35,6 +35,12 @@ body.home {
    border-radius: 15px;
 }
 
+#social {
+   position: absolute;
+   bottom: 70px;
+   left: 24px;
+}
+
 /*
 #brand {
     margin-top: 1em;
