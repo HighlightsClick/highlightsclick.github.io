@@ -35,17 +35,16 @@ function parse_query_string(query) {
 var query = window.location.search.substring(1);
 var qs = parse_query_string(query);
 
-//if(qs.url) {
+gtag('config', 'UA-129948591-1', {
+  'page_title' : qs.url,
+  'page_location' : qs.url
+});
+
+fbq('track', 'ViewContent');
   
-  gtag('config', 'UA-129948591-1', {
-    'page_title' : qs.url,
-    'page_location' : qs.url
-  });
-  
-  fbq('track', 'ViewContent');
-  
+if(qs.url) {
   setTimeout(function() {
-    // window.location.href = qs.url;
-  }, 1000);
-//}
+    window.location.href = qs.url;
+  }, 1500);
+}
 </script>
