@@ -48,7 +48,7 @@ body.home {
 #social a:visited,
 #social a:active {
     text-decoration: none;
-    color: #fff;
+    /*color: #fff;
     padding: 0 14px;
     margin-right: 0.5em;
     width: auto;
@@ -57,15 +57,7 @@ body.home {
     border-radius: 5px;
     background: #007aff;
     display: inline-block;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);
-}
-
-svg {
-    fill: currentColor;
-    height: 25px;
-    width: 25px;
-    line-height: 52px;
-    margin-top: 50%;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.4);*/
 }
 
 @media only screen and (max-width: 767px) {
@@ -73,14 +65,6 @@ svg {
         position: absolute;
         bottom: 8px;
         left: 8px;
-    }
-    
-    #social a,
-    #social a:hover,
-    #social a:visited,
-    #social a:active {
-        padding: 0 0.8em;
-        margin-right: 8px;
     }
 }
 
