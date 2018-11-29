@@ -35,9 +35,10 @@ layout: default
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('bai34nidth7z');
   
-// drift.on('ready',function(api, payload) {
-//  drift.config({welcomeMessageDelay: 500});
-// })
+drift.on('ready',function(api, payload) {
+ //drift.config({welcomeMessageDelay: 500});
+  api.sidebar.open();
+});
 
 </script>
 <!-- End of Async Drift Code -->
