@@ -19,11 +19,13 @@ iframe {
 }
 
 body.home {
-    background: #007aff;
-    color: #fff;
+    background: #fff;
+    color: #222;
+    font-family: sans-serif;
 }
 
 #brand {
+    margin-top: 1em;
     font-size: 4em;
     text-align: center;
 }
@@ -33,9 +35,6 @@ body.home {
     text-align: center;
 }
 
-#letschat {
-    font-size: 2em;
-    position: absolute;
-    bottom: 200px;
-    right: 50px;
+h2 {
+    text-align: center;
 }
