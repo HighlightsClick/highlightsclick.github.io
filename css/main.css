@@ -30,15 +30,31 @@ body.home {
    left: 50%;
    width: 250px;
    height: 250px;
-   margin-top: -125px; /* Half the height */
+   margin-top: -165px; /* Half the height */
    margin-left: -125px; /* Half the width */
    border-radius: 15px;
 }
 
 #social {
-   position: absolute;
-   bottom: 70px;
-   left: 24px;
+    position: absolute;
+    bottom: 52px;
+    left: 24px;
+    line-height: 1em;
+    margin: 0;
+}
+#social a,
+#social a:hover,
+#social a:visited {
+    text-decoration: none;
+    color: #007aff;
+    padding: 0.5em 0;
+}
+
+#social a:hover,
+#social a:active {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007aff; 
 }
 
 /*
