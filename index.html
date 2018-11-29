@@ -37,14 +37,12 @@ drift.load('bai34nidth7z');
 </script>
 <!-- End of Async Drift Code -->
 
+<img src="/img/logo_highlights_500.png" width="250px" height="250px" />
 <h1 id="brand">Highlights</h1>
 <p id="subheader">Get more Attention & Customers on Social Media by sharing Highlights.</p>
 <h2>#StartCon2018 Highlights</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.exhibitor }}</a>
-    </li>
-  {% endfor %}
-</ul>
-<p id="letschat">Let's Chat!</p>
+{% for post in site.posts %}
+<p class="highlighted"><a href="{{ post.url }}">{{ post.exhibitor }}</a></p>
+{% endfor %}
+
+
