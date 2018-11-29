@@ -48,6 +48,7 @@ body.home {
 #social a:visited,
 #social a:active {
     text-decoration: none;
+    display: inline-block;
     /*color: #fff;
     padding: 0 14px;
     margin-right: 0.5em;
