@@ -32,6 +32,7 @@ body.home {
    height: 250px;
    margin-top: -125px; /* Half the height */
    margin-left: -125px; /* Half the width */
+   border-radius: 15px;
 }
 
 /*
