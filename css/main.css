@@ -6,6 +6,10 @@ html, body {
     background: #fff;
 }
 
+body.page {
+    margin: 1em;
+}
+
 iframe {
     display: block;       /* iframes are inline by default */
     background: #fff;
